@@ -28,13 +28,15 @@
         android:hint="password"
         android:inputType="textPassword" />
 
-    <Button
-        android:id="@+id/btnLogin"
+    <EditText
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_weight="1"
-        android:text="Log in" />
+        android:ems="10"
+        android:hint="email" />
+
 
     <Button
         android:id="@+id/btnSignup"
